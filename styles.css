@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    margin: 50px 30px;
+}
+#store-container {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+
+#store-container .item {
+    border: solid 1px #ccc;
+    padding: 20px;
+}
+
+#shopping-cart-container {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    background-color: white;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.item .title {
+    font-weight: bold;
+    color: #ff8fab;
+}
+.item .price {
+    color: black;
+    font-weight: bold;
+}
+.item div {
+    padding: 5px 0;
+}
+
+.total {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+button {
+    border: none;
+    background-color: #ff8fab;
+    padding: 5px 10px;
+    border-radius: 30px;
+    width: 180px;
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    color: #ff8fab;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+header{
+    background-image: url(img/productos17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-color: #ffe5ec;
+}
+
+@media (min-width: 768px){
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.info-contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+
+}
+
+.dato-tel-mail-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    
+}
+
+@media (min-width: 768px){
+    .dato-tel-mail-redes{
+        flex-direction: row;
+        gap: 10px;
+    }
+    .redes{
+        margin-right: 40px;
+    }
+    .info-contactos{
+    margin-left: 30px;
+    }
+}
+
+.img-redes{
+    width: 40px;
+}

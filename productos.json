@@ -1,0 +1,26 @@
+{
+    "infoMaquillajes":[
+        {
+            "nombre": "Mascara de pestañas",
+            "marca": "Rimmel",
+            "color": "negro"
+        },
+        {
+            "nombre": "Delineador",
+            "marca": "Maybelline",
+            "color": "negro"
+        },
+        {
+            "nombre": "Corrector",
+            "marca": "Loreal",
+            "color": "claro"
+        },
+        {
+            "nombre": "Labial",
+            "marca": "Maybelline",
+            "color": "bordó"
+        }
+
+
+    ]
+}
